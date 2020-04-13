@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b34da3979293256b863926cdd0cfac4",
+    "content-hash": "7bba2b7305ea265eef345692f889afe6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1079,6 +1079,69 @@
                 "drupal"
             ],
             "time": "2019-11-04T10:55:17+00:00"
+        },
+        {
+            "name": "drupal/showcase_lite",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/showcase_lite.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/showcase_lite-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "cff70c03c39915fc08b711358d5aee0f937b7786"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1513574888",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "evankay",
+                    "homepage": "https://www.drupal.org/user/2912669"
+                },
+                {
+                    "name": "gtsopour",
+                    "homepage": "https://www.drupal.org/user/829430"
+                },
+                {
+                    "name": "skech",
+                    "homepage": "https://www.drupal.org/user/2447146"
+                },
+                {
+                    "name": "skounis",
+                    "homepage": "https://www.drupal.org/user/877552"
+                },
+                {
+                    "name": "vkech",
+                    "homepage": "https://www.drupal.org/user/1451830"
+                }
+            ],
+            "description": "A flexible, recolorable theme with many regions and a responsive, mobile-first layout.",
+            "homepage": "https://www.drupal.org/project/showcase_lite",
+            "support": {
+                "source": "https://git.drupalcode.org/project/showcase_lite"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3466,6 +3529,7 @@
                 "psr",
                 "psr-7"
             ],
+            "abandoned": "laminas/laminas-diactoros",
             "time": "2019-08-06T17:53:53+00:00"
         },
         {
@@ -3511,6 +3575,7 @@
                 "escaper",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2019-09-05T20:03:20+00:00"
         },
         {
@@ -3574,6 +3639,7 @@
                 "feed",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-feed",
             "time": "2019-03-05T20:08:49+00:00"
         },
         {
@@ -3620,6 +3686,7 @@
                 "stdlib",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         }
     ],
@@ -3630,8 +3697,5 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "platform-overrides": {
-        "php": "7.0.8"
-    }
+    "platform-dev": []
 }
